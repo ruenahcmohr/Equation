@@ -1,0 +1,25 @@
+
+// capture character value
+if (**end == '\'') {
+  end++;
+  if (**end == '\\') end++;    // escaped  character  
+  end++;   // character
+  if (**end == '\'') end++;    // include trailing quotes    
+
+  
+}
+
+
+
+value = 0;
+for( =0; <4; ++)
+  shift up 8 bits
+  get character
+   if slash
+     get character
+     translate escape
+   if quote
+     return value
+   else
+     translate
+fend
